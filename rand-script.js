@@ -3,6 +3,7 @@ function getRandomInt(min,max) {
     }
 let minVal;
 let maxVal;
+
 function setMinMaxVal(min,max) {
 	minVal = +min.value;
 	maxVal = +max.value;

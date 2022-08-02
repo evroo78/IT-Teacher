@@ -203,7 +203,7 @@ font-size: 16px; }
 	padding-top: 5em;
 }
 
-.random button{
+.random .btn{
 border:1px solid #4f6cd0;
 background:#4f6cd0;
 color:#fff;
