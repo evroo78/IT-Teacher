@@ -15,8 +15,9 @@ cursor: pointer;
 margin-right: 1em !important;
 }
 .nav-link:hover{
-background: #f4f4f4;
+background: #F2DC00;
 color: #4f6cd0;
+font-weight: bold;
 }
 .navbar-collapse{
 justify-content: flex-end;
@@ -176,7 +177,7 @@ transition:.3s ease-in-out;
 /*Contact form*/
 
 .contact-form{
-margin: 6em 0 20em 0;
+margin: 6em 0;
 position: relative;
 }
 .contact-form h1{
@@ -194,3 +195,25 @@ border:0;
 .contact-form .right .form-control::placeholder{
 color: #888;
 font-size: 16px; }
+
+/*random*/
+.random{
+	padding: 2em;
+	padding-top: 5em;
+}
+
+.random button{
+border:1px solid #4f6cd0;
+background:#4f6cd0;
+color:#fff;
+margin-top: 1em;
+}
+
+.random .card{
+	border:1px solid #4f6cd0;
+}
+
+.random .answer{
+	background-color: #4f6cd0;
+	color: #fff;
+}
