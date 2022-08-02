@@ -15,19 +15,19 @@
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" data-value="about" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Portfolio</a>
+                    <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Team</a>
+                    <a class="nav-link" data-value="blog" href="#">Friuts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Post</a>
+                    <a class="nav-link" data-value="team" href="#">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Contact</a>
+                    <a class="nav-link" data-value="contact-form" href="#">Contact</a>
                 </li>
             </ul>
         </div>
@@ -37,66 +37,57 @@
         <div class="overlay"></div>
         <div class="container">
         <div class="description">
-            <h1><font color="#F97300">
-                Hello ,Welcome To My officail Website
-                <p> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>
+                Hello, Welcome Straw Hat Pirates officail Website
+                <p> The Straw Hat Pirates, also known as the Mugiwara Pirates, Straw Hat Crew or simply the Straw Hats, are an infamous and powerful pirate crew that originated from the East Blue.</p>
                 <button class="btn btn-outline-secondary">See more</button>
-            </font></h1>
+            </h1>
         </div>
         </div>
     </header>
     <!-- About -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <img align="center" src="img/photo.jpg" class="img-fluid">
-                <span class="text-justify">S.Web Developer</span>
+                <span class="text-justify">Captain</span>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 desc">
                 <h3><font color="#3AC1EF">Monkey D. Luffy</font></h3>
-                <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>He is the founder and captain of the increasingly infamous and powerful Straw Hat Pirates, as well as one of its top fighters. His lifelong dream is to become the Pirate King by finding the legendary treasure left behind by the late Gol D. Roger. He believes that being the Pirate King means having the most freedom in the world.</p>
             </div>
         </div>
     </div>
     <!-- Portfolio -->
-    <div class="team">
-        <h1 class="text-center">My Team</h1>
+    <div class="portfolio" id="portfolio">
+        <h1 class="text-center">Portfolio</h1>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Nami.jpg" class="img-fluid">
+                    <img align="center" src="img/portfolio/draw 1.webp" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Zoro.jpg" class="img-fluid">
+                    <img align="center" src="img/portfolio/draw 5.webp" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Sanji.png" class="img-fluid">
+                    <img align="center" src="img/portfolio/draw 7.webp" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Chopper.jpeg" class="img-fluid">
+                    <img align="center" src="img/portfolio/draw 2.jpg" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Franky.jpg" class="img-fluid">
+                    <img align="center" src="img/portfolio/draw 4.webp" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Usopp.png" class="img-fluid">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Law.jpg" class="img-fluid">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Corason.jpg" class="img-fluid">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img align="center" src="img/team/Ace.jpg" class="img-fluid">
+                    <img align="center" src="img/portfolio/draw 6.webp" class="img-fluid">
                 </div>
             </div>
         </div>
     </div>
     <!-- Blog -->
-    <div class="fruits">
+    <div class="blog" id="blog">
         <div class="container">
-            <h1 class="text-center">Blog</h1>
+            <h1 class="text-center">Friuts</h1>
             <div class="row">
                 <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="card">
@@ -144,7 +135,81 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
+
+    <!-- Team -->
+    <div class="team" id="team">
+        <div class="container">
+            <h1 class="text-center">Our Team</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Luffy.jpg" class="img-fluid" alt="team">
+                    <div class="des">Monkey D. Luffy</div>
+                    <span class="text-muted">Captain</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Zoro.jpg" class="img-fluid" alt="team">
+                    <div class="des">Roronoa Zoro</div>
+                    <span class="text-muted">Combatant</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Nami.jpg" class="img-fluid" alt="team">
+                    <div class="des">Nami</div>
+                    <span class="text-muted">Navigator</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Usopp.png" class="img-fluid" alt="team">
+                    <div class="des">Usopp</div>
+                    <span class="text-muted">Sniper</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Sanji.png" class="img-fluid" alt="team">
+                    <div class="des">Sanji</div>
+                    <span class="text-muted">Cook</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Chopper.jpeg" class="img-fluid" alt="team">
+                    <div class="des">Tony Tony Chopper</div>
+                    <span class="text-muted">Doctor</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Robin.png" class="img-fluid" alt="team">
+                    <div class="des">Nico Robin</div>
+                    <span class="text-muted">Archaeologist</span>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 item">
+                    <img align="center" src="img/team/Franky.jpg" class="img-fluid" alt="team">
+                    <div class="des">Franky</div>
+                    <span class="text-muted">Shipwright</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact form -->
+    <div class="contact-form" id="contact-form">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1>Get in Touch</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     <!-- Bootstrap scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
